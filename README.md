@@ -5,9 +5,9 @@ In this practical assessment, you will focus on manual testing of the Lenkie Bro
 
 We are specifically looking for a candidate who:
 
-	•	Documents processes and findings in a clear and detailed manner.
-	•	Performs thorough and systematic manual testing across different scenarios.
-	•	Can formulate a comprehensive test plan for an existing product.
+- Documents processes and findings in a clear and detailed manner.
+- Performs thorough and systematic manual testing across different scenarios.
+- Can formulate a comprehensive test plan for an existing product.
 
 Assessment Instructions:
 
@@ -17,11 +17,12 @@ Section 1: Scenario-Based Practical Tasks
 
 Task 1: Broker Account Creation
 
-	•	Context: Brokers start by creating their accounts, selecting an authorized signatory, and submitting the necessary details to receive a broker agreement. This step must be completed before they can refer customers
+- Context: Brokers start by creating their accounts, selecting an authorized signatory, and submitting the necessary details to receive a broker agreement. This step must be completed before they can refer customers
 Instructions:
-	•	Test the account creation flow, focusing on both valid and invalid inputs
-	•	Validate form submissions and handle error scenarios (e.g., invalid email format).
-	•	Document your test cases and findings.
+
+- Test the account creation flow, focusing on both valid and invalid inputs
+- Validate form submissions and handle error scenarios (e.g., invalid email format).
+- Document your test cases and findings.
 
 Tip: When specifying the email address of the signatory, use an email address that belongs to you to for contract signing later.
 
@@ -29,21 +30,23 @@ Question: How would you approach testing the broker account creation process to 
 
 Task 2: Broker Agreement Signing
 
-	•	Context: After creating a broker account, the system sends an agreement to the authorized signatory for signing. Once the contract is signed, brokers can refer customers.
+- Context: After creating a broker account, the system sends an agreement to the authorized signatory for signing. Once the contract is signed, brokers can refer customers.
 Instructions:
-	•	Test the flow of sending the broker agreement and receiving it via email.
-	•	Test what happens in both successful and error scenarios (e.g., failure to receive the email, issues with signing).
-	•	Document the steps to reproduce any errors and your findings.
+
+- Test the flow of sending the broker agreement and receiving it via email.
+- Test what happens in both successful and error scenarios (e.g., failure to receive the email, issues with signing).
+- Document the steps to reproduce any errors and your findings.
 
 Question: What kind of scenarios would you test when handling the signing and submission of a broker agreement to ensure smooth functionality?
 
 Task 3: Customer Referrals
 
-	•	Context: Once a broker account is set up and the agreement is signed, brokers can submit customer referrals. This involves providing customer information, funding details, and uploading required documents.
+- Context: Once a broker account is set up and the agreement is signed, brokers can submit customer referrals. This involves providing customer information, funding details, and uploading required documents.
 Instructions:
-	•	Test the customer referral form, validating both correct and incorrect data entries.
-	•	Check that document uploads (e.g., management accounts) work as expected, including handling different file types and sizes.
-	•	Document test cases and any issues you find.
+
+- Test the customer referral form, validating both correct and incorrect data entries.
+- Check that document uploads (e.g., management accounts) work as expected, including handling different file types and sizes.
+- Document test cases and any issues you find.
 
 Question: How would you test the customer referral process to ensure that all data is correctly handled and that files are uploaded without issues?
 
@@ -51,10 +54,10 @@ Section 2: Test Plan Formulation
 
 After completing the practical tasks, formulate a comprehensive test plan for the Lenkie Broker Portal. Your test plan should cover the following:
 
-	•	Scope: Outline the areas of the portal to be tested.
-	•	Test Strategy: Specify types of tests (e.g., functional, regression, UAT).
-	•	Test Case Design: How would you prioritize test cases?
-	•	Tools: Mention any tools or methods you would use to track and manage test cases.
+- Scope: Outline the areas of the portal to be tested.
+- Test Strategy: Specify types of tests (e.g., functional, regression, UAT).
+- Test Case Design: How would you prioritize test cases?
+- Tools: Mention any tools or methods you would use to track and manage test cases.
 
 Question: How would you go about designing a test plan for the Broker Portal, and what would be your top priorities when ensuring test coverage?
 
@@ -62,8 +65,8 @@ Section 3: Bug Reporting Exercise
 
 Based on the practical tasks, identify and report at least 3 bugs. Use a structured bug reporting template that includes:
 
-	•	Steps to reproduce the issue.
-	•	Expected vs. actual behavior.
-	•	Supporting evidence (e.g., screenshots or logs).
+- Steps to reproduce the issue.
+- Expected vs. actual behavior.
+- Supporting evidence (e.g., screenshots or logs).
 
 Question: How do you ensure that your bug reports are clear, reproducible, and actionable for developers?
