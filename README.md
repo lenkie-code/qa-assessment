@@ -1,5 +1,5 @@
 
-At Lenkie, we prioritize seamless experiences for both brokers and the customers they refer. As part of the Lenkie team, the Broker Portal is a critical tool, allowing brokers to manage referrals, agreements, and interactions with ease. We are currently looking for a QA engineer to help us uphold the quality and functionality of this portal as it continues to evolve.
+At Lenkie, we prioritize seamless experiences for both brokers and the customers they refer.The Broker Portal is a critical tool, allowing brokers to manage referrals, agreements, and interactions with ease. We are currently looking for a QA engineer to help us uphold the quality and functionality of this portal as it continues to evolve.
 
 In this practical assessment, you will focus on manual testing of the Lenkie Broker Portal, which includes features such as broker account creation, broker agreement signing, and customer referrals. The goal is to see how well you can test core features, document issues, and propose improvements.
 
